@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+        "@language": "en",
+        "voice_schema": {
+            "@id": "https://raw.githubusercontent.com/sensein/covid19/master/Covid19/Covid19_schema",
+            "@type": "@id"
+        },
+        "ThankYou_schema": {
+            "@id": "activity_path:ThankYou/ThankYou_schema",
+            "@type": "@id"
+        }
+    }
+}
