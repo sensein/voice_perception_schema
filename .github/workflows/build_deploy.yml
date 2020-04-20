@@ -33,6 +33,7 @@ jobs:
         cp -r ../ui-changes/. .
         npm install
         npm run build
+        touch dist/.nojekyll
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
