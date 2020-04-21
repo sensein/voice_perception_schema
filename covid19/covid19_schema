@@ -15,14 +15,11 @@
     ],
     "ui": {
         "order": [
-            "share_data",
             "email",
-            "yob"
+            "yob",
+            "share_data"
         ],
-        "shuffle": false,
-        "visibility": [
-            {"variableName": "email", "isVis": "share_data === 1"}
-        ]
+        "shuffle": false
     }
 }
 
