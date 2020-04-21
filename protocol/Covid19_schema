@@ -16,13 +16,16 @@
     ],
     "ui": {
         "order": [
+            "covid19_schema",
             "voice_schema",
+            "voice_opt_schema",
             "ThankYou_schema"
         ],
         "shuffle": false,
         "displayNameMap": [
             {"isAbout": "covid19_schema", "alternateName": {"en": "Covid survey"}},
-            {"isAbout": "voice_schema", "alternateName": {"en": "Vocal Patterns"}},
+            {"isAbout": "voice_schema", "alternateName": {"en": "Voice Patterns"}},
+            {"isAbout": "voice_opt_schema", "alternateName": {"en": "Optional Voice Patterns"}},
             {"isAbout": "ThankYou_schema", "alternateName": {"en": "ThankYou"}}
         ],
         "allow": ["autoAdvance"]
