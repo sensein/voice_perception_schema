@@ -12,6 +12,7 @@
     "variableMap": [
         {"variableName": "covid19_schema", "isAbout": "covid19_schema"},
         {"variableName": "voice_schema", "isAbout": "voice_schema"},
+        {"variableName": "voice_opt_schema", "isAbout": "voice_opt_schema"},
         {"variableName": "ThankYou_schema", "isAbout": "ThankYou_schema"}
     ],
     "ui": {
