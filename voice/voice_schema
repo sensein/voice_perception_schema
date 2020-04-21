@@ -1,20 +1,19 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/satra/reproschema/prot-tom/activities/Covid19/Covid19_context"
+        "https://raw.githubusercontent.com/sensein/covid19/master/voice/voice_context"
     ],
     "@type": "reproschema:Activity",
-    "@id": "Covid19_schema",
+    "@id": "voice_schema",
     "skos:prefLabel": "Covid19 voice tasks",
-    "skos:altLabel": "Covid19 voice tasks",
     "schema:description": "Covid19 Voice tasks",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "preamble": {
         "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
-        "es": "Para cada pregunta, debería hacer click sobre el botón antes de hablar y luego hacerlo de nuevo para parar de grabar. Luego puede tocar play para escuchar su respuesta."
     },
     "variableMap": [
         {"variableName": "multipart_audio_check", "isAbout": "multipart_audio_check"},
+        {"variableName": "free_speech_general_mood", "isAbout": "free_speech_general_mood"},
         {"variableName": "caterpillar", "isAbout": "caterpillar"},
         {"variableName": "caterpillar_fast", "isAbout": "caterpillar_fast"},
         {"variableName": "say_ah", "isAbout": "say_ah"},
@@ -36,6 +35,7 @@
     "ui": {
         "order": [
             "multipart_audio_check",
+            "free_speech_general_mood",
             "caterpillar",
             "caterpillar_fast",
             "kmart_natural",

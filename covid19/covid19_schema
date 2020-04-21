@@ -1,0 +1,34 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/covid19/covid19_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "covid19_schema",
+    "skos:prefLabel": "Covid19 survey questions",
+    "schema:description": "Covid19 survey questions",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": {
+        "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
+    },
+    "variableMap": [
+        {"variableName": "share_data", "isAbout": "share_data"},
+        {"variableName": "email", "isAbout": "email"},
+        {"variableName": "yob", "isAbout": "yob"}
+    ],
+    "ui": {
+        "order": [
+            "share_data",
+            "email",
+            "yob"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {"variableName": "email", "isVis": "share_data === 1"},
+        ]
+    }
+}
+
+
+
+

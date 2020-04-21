@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/items/",
+        "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/items/",
+        "nda": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/items/",
+        "covid19": "https://raw.githubusercontent.com/sensein/covid19/master/covid19/items/",
+        "share_data": {
+            "@id": "wellbeing:share_data",
+            "@type": "@id"
+        },
+        "email": {
+            "@id": "wellbeing:email",
+            "@type": "@id"
+        },
+        "yob": {
+            "@id": "nda:yearOfBirth",
+            "@type": "@id"
+        }
+    }
+}
+
+
