@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/sensein/covid19/master/voice_opt/voice_context"
+        "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice_opt/voice_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "voice_schema",
