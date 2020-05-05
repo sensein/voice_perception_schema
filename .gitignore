@@ -1,23 +1,11 @@
-# ignore Maven files
-target
-# ignore Eclipse files
-.project
-.classpath
-.settings
-.metadata
-.checkstyle
-# ignore Idea files
-*.iml
-*.ipr
-*.iws
-.idea
-# ignore NetBeans files
-nbactions.xml
-nb-configuration.xml
-catalog.xml
-nbproject
 .DS_Store
-.git
-.github
-.gitmodules
-.idea
+.vscode/
+*~
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.idea/
+.coverage*
+cov.xml
+build
+dist

@@ -20,3 +20,15 @@ Test individual files here: ```https://jsonlint.com/```
 Test protocol: ```https://schema.repronim.org/ui/#/?url=https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_schema```
 
 the url is available in ```protocol/Covid19_schema``` and replace `context` with `schema` as done above
+
+This a protocol being used to assess impact of SARS-COV2 on speech production. 
+The overall protocol is in the `protocol`folder and individual tasks and items
+are in the `covid19`, `voice`, and `voice-opt` folders. 
+
+# Technical details
+
+1. This repo uses [ReproSchema](https://github.com/ReproNim/reproschema/),
+[ReproSchema-UI](https://github.com/ReproNim/reproschema-ui/).
+2. The UI is added as a submodule (`ui`) and changes relative to the UI are stored 
+in `ui-changes`.
+3. The entire build is carried out by Github actions and deployed via gh-pages.
