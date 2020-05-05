@@ -30,6 +30,6 @@
             {"isAbout": "voice_opt_schema", "alternateName": {"en": "Optional Voice Tasks"}},
             {"isAbout": "ThankYou_schema", "alternateName": {"en": "ThankYou"}}
         ],
-        "allow": ["autoAdvance"]
+        "allow": ["autoAdvance", "allowExport"]
     }
 }

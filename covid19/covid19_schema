@@ -26,9 +26,9 @@
     ],
     "ui": {
         "order": [
-            "email",
             "yob",
             "share_data",
+            "email",
             "covid19_clinical_history",
             "smoking_history",
             "covid19_status",
@@ -47,7 +47,7 @@
         "shuffle": false,
         "visibility": [
         {"variableName": "share_data", "isVis": true},
-        {"variableName": "email", "isVis": true},
+        {"variableName": "email", "isVis": "share_data === 1"},
         {"variableName": "yob", "isVis": true},
         {"variableName": "covid19_clinical_history", "isVis": true},
         {"variableName": "smoking_history", "isVis": true},
