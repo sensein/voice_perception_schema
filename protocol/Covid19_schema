@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:ActivitySet",
     "@id": "Covid19_schema",
-    "skos:prefLabel": "Voice Protocol for Covid19",
+    "prefLabel": "Voice Protocol for Covid19",
     "schema:description": "Voice Protocol for evaluating impact of Covid19 on speech",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
@@ -23,28 +23,28 @@
             {
                 "isAbout": "covid19_schema",
                 "variableName": "covid19_schema",
-                "skos:prefLabel": {
+                "prefLabel": {
                     "en": "Covid survey"
                 }
             },
             {
                 "isAbout": "voice_schema",
                 "variableName": "voice_schema",
-                "skos:prefLabel": {
+                "prefLabel": {
                     "en": "Voice Tasks"
                 }
             },
             {
                 "isAbout": "voice_opt_schema",
                 "variableName": "voice_opt_schema",
-                "skos:prefLabel": {
+                "prefLabel": {
                     "en": "Optional Voice Tasks"
                 }
             },
             {
                 "isAbout": "ThankYou_schema",
                 "variableName": "ThankYou_schema",
-                "skos:prefLabel": {
+                "prefLabel": {
                     "en": "ThankYou"
                 }
             }
