@@ -1,7 +1,10 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_context",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/"
+        }
     ],
     "@type": "reproschema:Protocol",
     "@id": "Covid19_schema",
@@ -16,7 +19,7 @@
             "../activity/covid19/covid19_schema",
             "../activity/voice/voice_schema",
             "../activity/voice_opt/voice_opt_schema",
-            "ThankYou_schema"
+            "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
         "addProperties": [
@@ -42,7 +45,7 @@
                 }
             },
             {
-                "isAbout": "ThankYou_schema",
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
                     "en": "ThankYou"

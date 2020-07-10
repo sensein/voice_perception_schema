@@ -1,7 +1,10 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "covid19_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+        {
+            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/items/",
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/items/"
+        }
     ],
     "@type": "reproschema:Activity",
     "@id": "covid19_schema",
@@ -11,9 +14,9 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "yob",
-            "share_data",
-            "email",
+            "nda:yob",
+            "wellbeing:share_data",
+            "wellbeing:email",
             "items/covid19_clinical_history",
             "items/smoking_history",
             "items/covid19_status",
@@ -29,17 +32,17 @@
         "shuffle": false,
         "addProperties": [
             {
-                "isAbout": "share_data",
+                "isAbout": "wellbeing:share_data",
                 "variableName": "share_data",
                 "isVis": true
             },
             {
-                "isAbout": "email",
+                "isAbout": "wellbeing:email",
                 "variableName": "email",
                 "isVis": "share_data === 1"
             },
             {
-                "isAbout": "yob",
+                "isAbout": "nda:yob",
                 "variableName": "yob",
                 "isVis": true
             },
