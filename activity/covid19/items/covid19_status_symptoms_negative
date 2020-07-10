@@ -1,18 +1,17 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_status_symptoms_negative",
-    "skos:prefLabel": "Covid19 Symptoms - negative",
-    "skos:altLabel": "covid19 symptoms negative",
-    "schema:description": "Respiratory disease symptoms with focus on COVID19 symptoms - negative",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Covid19 Symptoms - negative",
+    "description": "Respiratory disease symptoms with focus on COVID19 symptoms - negative",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Are you currently experiencing any of the following symptoms?",
         "es": "¿Está experimentando alguno de los siguientes síntomas?"
     },
     "responseOptions": {
+        "valueType": "xsd:integer",
         "multipleChoice": true,
         "choices": [
             {

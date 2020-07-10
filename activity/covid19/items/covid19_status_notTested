@@ -1,18 +1,17 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_status",
-    "skos:prefLabel": "Covid19 Status - not tested",
-    "skos:altLabel": "covid19 status not tested",
-    "schema:description": "COVID-19 diagnosis and suspicion status - not tested",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Covid19 Status - not tested",
+    "description": "COVID-19 diagnosis and suspicion status - not tested",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "What is your current status?",
         "es": "¿Cuál es tu estado actual?"
     },
     "responseOptions": {
+        "valueType": "xsd:integer",
         "multipleChoice": false,
         "choices": [
             {

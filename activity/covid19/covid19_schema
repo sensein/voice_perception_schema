@@ -1,30 +1,30 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/sensein/covid19/master/activity/covid19/covid19_context"
+        "covid19_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "covid19_schema",
-    "skos:prefLabel": "Covid19 survey questions",
-    "schema:description": "Covid19 survey questions",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Covid19 survey questions",
+    "description": "Covid19 survey questions",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "ui": {
         "order": [
             "yob",
             "share_data",
             "email",
-            "covid19_clinical_history",
-            "smoking_history",
-            "covid19_status",
-            "covid19_status_tested",
-            "covid19_status_symptoms_positive",
-            "covid19_days",
-            "fever_positive",
-            "covid19_status_notTested",
-            "covid19_status_symptoms_negative",
-            "fever_negative",
-            "fever_c_or_f"
+            "items/covid19_clinical_history",
+            "items/smoking_history",
+            "items/covid19_status",
+            "items/covid19_status_tested",
+            "items/covid19_status_symptoms_positive",
+            "items/covid19_days",
+            "items/fever_positive",
+            "items/covid19_status_notTested",
+            "items/covid19_status_symptoms_negative",
+            "items/fever_negative",
+            "items/fever_c_or_f"
         ],
         "shuffle": false,
         "addProperties": [
@@ -44,57 +44,57 @@
                 "isVis": true
             },
             {
-                "isAbout": "covid19_clinical_history",
+                "isAbout": "items/covid19_clinical_history",
                 "variableName": "covid19_clinical_history",
                 "isVis": true
             },
             {
-                "isAbout": "smoking_history",
+                "isAbout": "items/smoking_history",
                 "variableName": "smoking_history",
                 "isVis": true
             },
             {
-                "isAbout": "covid19_status",
+                "isAbout": "items/covid19_status",
                 "variableName": "covid19_status",
                 "isVis": true
             },
             {
-                "isAbout": "covid19_status_tested",
+                "isAbout": "items/covid19_status_tested",
                 "variableName": "covid19_status_tested",
                 "isVis": "covid19_status === 2"
             },
             {
-                "isAbout": "covid19_status_symptoms_positive",
+                "isAbout": "items/covid19_status_symptoms_positive",
                 "variableName": "covid19_status_symptoms_positive",
                 "isVis": "covid19_status_tested === 1"
             },
             {
-                "isAbout": "covid19_days",
+                "isAbout": "items/covid19_days",
                 "variableName": "covid19_days",
                 "isVis": "covid19_status_tested === 1"
             },
             {
-                "isAbout": "fever_positive",
+                "isAbout": "items/fever_positive",
                 "variableName": "fever_positive",
                 "isVis": "covid19_status_tested === 1"
             },
             {
-                "isAbout": "covid19_status_notTested",
+                "isAbout": "items/covid19_status_notTested",
                 "variableName": "covid19_status_notTested",
                 "isVis": "covid19_status === 1"
             },
             {
-                "isAbout": "covid19_status_symptoms_negative",
+                "isAbout": "items/covid19_status_symptoms_negative",
                 "variableName": "covid19_status_symptoms_negative",
                 "isVis": "covid19_status === 1 || covid19_status_tested === 2"
             },
             {
-                "isAbout": "fever_negative",
+                "isAbout": "items/fever_negative",
                 "variableName": "fever_negative",
                 "isVis": "covid19_status === 1 || covid19_status_tested === 2"
             },
             {
-                "isAbout": "fever_c_or_f",
+                "isAbout": "items/fever_c_or_f",
                 "variableName": "fever_c_or_f",
                 "isVis": true
             }

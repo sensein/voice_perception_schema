@@ -1,18 +1,17 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_symptoms",
-    "skos:prefLabel": "Covid19 Risk Factors",
-    "skos:altLabel": "covid19 risk factors",
-    "schema:description": "Covid19 Risk Factors",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Covid19 Risk Factors",
+    "description": "Covid19 Risk Factors",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Have you been diagnosed with any of the following conditions?",
         "es": "¿Ha sido diagnosticado con alguna de las siguientes enfermedades?"
     },
     "responseOptions": {
+        "valueType": "xsd:integer",
         "multipleChoice": true,
         "choices": [
             {
