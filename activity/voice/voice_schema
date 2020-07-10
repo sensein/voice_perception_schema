@@ -2,8 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/VoiceTask/items/",
-            "voice_screen": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/VoiceScreening/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -19,7 +18,7 @@
         "addProperties": [
             {
                 "variableName": "audio_check",
-                "isAbout": "voice_screen:audio_check"
+                "isAbout": "voice_tasks:audio_check"
             },
             {
                 "variableName": "caterpillar_fast",
@@ -43,7 +42,7 @@
             }
         ],
         "order": [
-            "voice_screen:audio_check",
+            "voice_tasks:audio_check",
             "voice_tasks:caterpillar_fast",
             "voice_tasks:kmart_exhale",
             "voice_tasks:say_ah",
