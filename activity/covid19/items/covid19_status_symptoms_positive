@@ -1,17 +1,18 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
     "@type": "reproschema:Field",
     "@id": "covid19_status_symptoms_positive",
-    "prefLabel": "Covid19 Symptoms - positive",
-    "description": "Respiratory disease symptoms with focus on COVID19 symptoms - positive",
-    "schemaVersion": "0.0.1",
-    "version": "0.0.1",
+    "skos:prefLabel": "Covid19 Symptoms - positive",
+    "skos:altLabel": "covid19 symptoms positive",
+    "schema:description": "Respiratory disease symptoms with focus on COVID19 symptoms - positive",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
     "question": {
         "en": "Check the symptoms you had before being tested.",
         "es": "Indique los síntomas que tuvo antes de ser testeado(a)."
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "multipleChoice": true,
         "choices": [
             {
