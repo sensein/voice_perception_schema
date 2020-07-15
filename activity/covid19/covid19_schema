@@ -2,8 +2,8 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/items/",
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/items/"
+            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/Wellbeing/items/",
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/NDA/items/"
         }
     ],
     "@type": "reproschema:Activity",
