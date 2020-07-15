@@ -1,18 +1,18 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_symptoms",
-    "skos:prefLabel": "Fever C or F",
-    "skos:altLabel": "fever in celcius or fahrenheit",
-    "schema:description": "Fever C or F",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Fever C or F",
+    "altLabel": "fever in celcius or fahrenheit",
+    "description": "Fever C or F",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Farenheit or Celcius?",
         "es": "Farenheit o Celcius?"
         },
     "responseOptions": {
+        "valueType": "xsd:integer",
         "multipleChoice": false,
         "choices": [
         {

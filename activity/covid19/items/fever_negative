@@ -1,19 +1,21 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
-    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_symptoms",
-    "skos:prefLabel": "Fever - negative COVID19",
-    "skos:altLabel": "fever - negative covid19",
-    "schema:description": "Fever - negative COVID19",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Fever - negative COVID19",
+    "altLabel": "fever - negative covid19",
+    "description": "Fever - negative COVID19",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "question": {
         "en": "Current temperature.",
         "es": "Fiebre actual."
         },
     "ui": {
         "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
     }
 }
 
