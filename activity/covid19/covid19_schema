@@ -3,7 +3,8 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
             "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/Wellbeing/items/",
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/NDA/items/"
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/NDA/items/",
+            "demo": "https://raw.githubusercontent.com/sanuann/reproschema-library/master/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -14,6 +15,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
+            "demo:participant_id",
             "nda:yearOfBirth",
             "wellbeing:share_data",
             "wellbeing:email",
@@ -31,6 +33,11 @@
         ],
         "shuffle": false,
         "addProperties": [
+            {
+                "isAbout": "demo:participant_id",
+                "variableName": "participant_id",
+                "isVis": true
+            },
             {
                 "isAbout": "wellbeing:share_data",
                 "variableName": "share_data",
