@@ -38,8 +38,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         curl -O -sSL https://github.com/ReproNim/reproschema-ui/tree/0ffbfe965e2931b93a3efc620b14551d29e5707a
-        mv reproschema* ui
-        cd ui
         cp -r ../ui-changes/. .
         npm install
         npm run build
