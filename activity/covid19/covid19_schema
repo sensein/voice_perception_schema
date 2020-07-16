@@ -14,7 +14,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "nda:yob",
+            "nda:yearOfBirth",
             "wellbeing:share_data",
             "wellbeing:email",
             "items/covid19_clinical_history",
@@ -42,8 +42,8 @@
                 "isVis": "share_data === 1"
             },
             {
-                "isAbout": "nda:yob",
-                "variableName": "yob",
+                "isAbout": "nda:yearOfBirth",
+                "variableName": "yearOfBirth",
                 "isVis": true
             },
             {
