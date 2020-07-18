@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/"
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
