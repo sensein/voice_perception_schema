@@ -12,7 +12,10 @@
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
-    "landingPage": "README-en.md",
+    "landingPage": {
+        "@id": "README-en.md",
+        "@language": "en"
+    },
     "ui": {
         "order": [
             "../activity/covid19/covid19_schema",
@@ -52,8 +55,8 @@
             }
         ],
         "allow": [
-            "AutoAdvance",
-            "AllowExport"
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
         ]
     }
 }
