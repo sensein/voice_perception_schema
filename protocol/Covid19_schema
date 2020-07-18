@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/"
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -12,7 +12,10 @@
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
-    "landingPage": "README-en.md",
+    "landingPage": {
+        "@id": "README-en.md",
+        "@language": "en"
+    },
     "ui": {
         "order": [
             "../activity/covid19/covid19_schema",
@@ -52,8 +55,8 @@
             }
         ],
         "allow": [
-            "AutoAdvance",
-            "AllowExport"
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
         ]
     }
 }
