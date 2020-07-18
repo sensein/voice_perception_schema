@@ -2,6 +2,8 @@
 
 name: CI
 
+env:
+  CHECKSUM: 8a4c2bf57af40d6250dd81792d57dd5c188ef577
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -19,6 +21,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
@@ -34,11 +37,24 @@ jobs:
         grep -r  "@context" activity | cut -d: -f1 | xargs -I fname jsonlint -q fname
         grep -r  "@context" protocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools
+        pip install reproschema requests_cache
+    - name: Test with pyshacl
+      run: |
+        reproschema -l DEBUG validate activity
+        reproschema -l DEBUG validate protocol/Covid19_schema
+
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        curl -O -sSL https://github.com/ReproNim/reproschema-ui/archive/0ffbfe965e2931b93a3efc620b14551d29e5707a.zip
-        unzip 0ffbfe965e2931b93a3efc620b14551d29e5707a.zip
+        curl -O -sSL https://github.com/ReproNim/reproschema-ui/archive/${CHECKSUM}.zip
+        unzip ${CHECKSUM}.zip
         mv reproschema* ui
         cd ui
         cp -r ../ui-changes/. .

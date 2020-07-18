@@ -2,9 +2,8 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/Wellbeing/items/",
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/NDA/items/",
-            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/demographics_and_background_information_v1/items/"
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/NDA/items/",
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -17,8 +16,8 @@
         "order": [
             "demo:participant_id",
             "nda:yearOfBirth",
-            "wellbeing:share_data",
-            "wellbeing:email",
+            "demo:share_data",
+            "demo:email",
             "items/covid19_clinical_history",
             "items/smoking_history",
             "items/covid19_status",
@@ -39,12 +38,12 @@
                 "isVis": true
             },
             {
-                "isAbout": "wellbeing:share_data",
+                "isAbout": "demo:share_data",
                 "variableName": "share_data",
                 "isVis": true
             },
             {
-                "isAbout": "wellbeing:email",
+                "isAbout": "demo:email",
                 "variableName": "email",
                 "isVis": "share_data === 1"
             },
