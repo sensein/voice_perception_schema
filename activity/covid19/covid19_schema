@@ -2,9 +2,9 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/Wellbeing/items/",
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/NDA/items/",
-            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/refactor-1.0/activities/demographics_and_background_information_v1/items/"
+            "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/Wellbeing/items/",
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/NDA/items/",
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
