@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         {
             "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/VoiceTask/items/"
         }
