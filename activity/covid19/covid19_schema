@@ -35,17 +35,17 @@
             {
                 "isAbout": "demo:participant_id",
                 "variableName": "participant_id",
-                "isVis": true
+                "isVis": false
             },
             {
                 "isAbout": "demo:share_data",
                 "variableName": "share_data",
-                "isVis": true
+                "isVis": false
             },
             {
                 "isAbout": "demo:email",
                 "variableName": "email",
-                "isVis": "share_data === 1"
+                "isVis": false
             },
             {
                 "isAbout": "nda:yearOfBirth",
