@@ -18,7 +18,8 @@
         "addProperties": [
             {
                 "variableName": "free_speech_general_mood",
-                "isAbout": "voice_tasks:free_speech_general_mood"
+                "isAbout": "voice_tasks:free_speech_general_mood",
+                "isVis": false
             },
             {
                 "variableName": "say_ee",
@@ -30,7 +31,8 @@
             },
             {
                 "variableName": "pataka",
-                "isAbout": "voice_tasks:pataka"
+                "isAbout": "voice_tasks:pataka",
+                "isVis": false
             },
             {
                 "variableName": "say_n",
