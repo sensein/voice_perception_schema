@@ -4,5 +4,5 @@ module.exports = {
   banner: 'This protocol is under construction.',
   startButton: 'Join',
   assetsPublicPath: '/covid19/',
-  backendServer: 'https://sig.mit.edu/vb/'
+  backendServer: 'https://sig.mit.edu/vb'
 };
