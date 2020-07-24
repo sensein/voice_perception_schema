@@ -70,6 +70,11 @@
                 "isVis": "covid19_status_tested === 1"
             },
             {
+                "isAbout": "items/fever_c_or_f",
+                "variableName": "fever_c_or_f",
+                "isVis": true
+            },
+            {
                 "isAbout": "items/covid19_status_notTested",
                 "variableName": "covid19_status_notTested",
                 "isVis": "covid19_status === 1"
@@ -82,7 +87,7 @@
             {
                 "isAbout": "items/fever_negative",
                 "variableName": "fever_negative",
-                "isVis": "covid19_status === 1 || covid19_status_tested === 2"
+                "isVis": true
             },
             {
                 "isAbout": "items/fever_c_or_f",
