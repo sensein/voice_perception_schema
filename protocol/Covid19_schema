@@ -15,10 +15,15 @@
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
-    "landingPage": {
-        "@id": "README-en.md",
-        "@language": "en"
-    },
+    "landingPage": [{
+            "@id": "README-en.md",
+            "@language": "en"
+        },
+        {
+            "@id": "README-es.md",
+            "@language": "es"
+        }
+    ],
     "ui": {
         "order": [
             "../activity/covid19/covid19_schema",
