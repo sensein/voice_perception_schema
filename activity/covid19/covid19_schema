@@ -70,11 +70,6 @@
                 "isVis": "covid19_status_tested === 1"
             },
             {
-                "isAbout": "items/fever_c_or_f",
-                "variableName": "fever_c_or_f",
-                "isVis": true
-            },
-            {
                 "isAbout": "items/covid19_status_notTested",
                 "variableName": "covid19_status_notTested",
                 "isVis": "covid19_status === 1"
