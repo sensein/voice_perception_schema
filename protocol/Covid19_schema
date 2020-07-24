@@ -56,8 +56,8 @@
                 "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
-                    "en": "ThankYou",
-                    "es": "Gracias"
+                    "en": "Submit Responses",
+                    "es": "Enviar respuestas"
                 }
             }
         ],
