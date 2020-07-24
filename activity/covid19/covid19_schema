@@ -77,7 +77,7 @@
             {
                 "isAbout": "items/covid19_status_symptoms_negative",
                 "variableName": "covid19_status_symptoms_negative",
-                "isVis": "covid19_status === 1 || covid19_status_tested === 2"
+                "isVis": true
             },
             {
                 "isAbout": "items/fever_negative",
