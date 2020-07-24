@@ -32,28 +32,32 @@
                 "isAbout": "../activity/covid19/covid19_schema",
                 "variableName": "covid19_schema",
                 "prefLabel": {
-                    "en": "Covid survey"
+                    "en": "COVID19 survey",
+                    "es": "Encuesta sobre COVID19"
                 }
             },
             {
                 "isAbout": "../activity/voice/voice_schema",
                 "variableName": "voice_schema",
                 "prefLabel": {
-                    "en": "Voice Tasks"
+                    "en": "Voice Tasks",
+                    "es": "Tareas de voz"
                 }
             },
             {
                 "isAbout": "../activity/voice_opt/voice_opt_schema",
                 "variableName": "voice_opt_schema",
                 "prefLabel": {
-                    "en": "Optional Voice Tasks"
+                    "en": "Optional Voice Tasks",
+                    "es": "Tareas de voz optativas"
                 }
             },
             {
                 "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
-                    "en": "ThankYou"
+                    "en": "Submit Responses",
+                    "es": "Enviar respuestas"
                 }
             }
         ],
