@@ -14,10 +14,7 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "demo:participant_id",
             "nda:yearOfBirth",
-            "demo:share_data",
-            "demo:email",
             "items/covid19_clinical_history",
             "items/smoking_history",
             "items/covid19_status",
@@ -32,21 +29,6 @@
         ],
         "shuffle": false,
         "addProperties": [
-            {
-                "isAbout": "demo:participant_id",
-                "variableName": "participant_id",
-                "isVis": false
-            },
-            {
-                "isAbout": "demo:share_data",
-                "variableName": "share_data",
-                "isVis": false
-            },
-            {
-                "isAbout": "demo:email",
-                "variableName": "email",
-                "isVis": false
-            },
             {
                 "isAbout": "nda:yearOfBirth",
                 "variableName": "yearOfBirth",
