@@ -1,16 +1,16 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/NDA/items/",
-            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/demographics_and_background_information_v1/items/"
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/NDA/items/",
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
     "@id": "covid19_schema",
     "prefLabel": "Covid19 survey questions",
     "description": "Covid19 survey questions",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
         "order": [

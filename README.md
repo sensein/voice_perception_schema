@@ -23,3 +23,6 @@ in `ui-changes`.
 3. The entire build is carried out by Github actions and deployed via gh-pages.
 
 Test protocol: ```https://schema.repronim.org/ui/#/?url=https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_schema```
+
+reproschema-library checksum:[070c1768a023420202ace00ba9f6e7ffe2b8dfbf](https://github.com/ReproNim/reproschema-library/tree/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/)
+

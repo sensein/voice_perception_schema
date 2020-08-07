@@ -1,15 +1,15 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
     "@id": "voice_schema",
     "prefLabel": "Covid19 voice tasks",
     "description": "Covid19 Voice tasks",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {
         "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",        
