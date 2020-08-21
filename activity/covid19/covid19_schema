@@ -24,8 +24,7 @@
             "items/fever_positive",
             "items/covid19_status_notTested",
             "items/covid19_status_symptoms_negative",
-            "items/fever_negative",
-            "items/fever_c_or_f"
+            "items/fever_negative"
         ],
         "shuffle": false,
         "addProperties": [
@@ -82,11 +81,6 @@
             {
                 "isAbout": "items/fever_negative",
                 "variableName": "fever_negative",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/fever_c_or_f",
-                "variableName": "fever_c_or_f",
                 "isVis": true
             }
         ]

@@ -12,7 +12,7 @@
         "es": "Fiebre actual."
         },
     "ui": {
-        "inputType": "text"
+        "inputType": "structured"
     },
     "responseOptions": {
         "valueType": "xsd:string"
