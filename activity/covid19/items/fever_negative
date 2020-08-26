@@ -15,7 +15,8 @@
         "inputType": "structured"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:string",
+        "unitCode": [ "Fahrenheit", "Celcius" ]
     }
 }
 
