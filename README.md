@@ -14,7 +14,9 @@ Activities (tasks):
 * voice_opt
     * Items: An extend set of tasks
 
-[Here](https://docs.google.com/document/d/1NoE0K-z2AbzLK_5mRkIgFINIh1yT0ujdeROZpIEDnS8/edit) is the logic to the COVID-19 questionnaire 
+
+[Here](https://docs.google.com/document/d/1NoE0K-z2AbzLK_5mRkIgFINIh1yT0ujdeROZpIEDnS8/edit) is the protocol including the branching logic to the intitial COVID-19 questionnaire. 
+
 
 
 # Technical details
