@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "PHQ2_schema",
+    "prefLabel": {
+        "en": "Mental Health",
+        "es": "Salud Mental"
+    },
+    "description": "Mental Health schema",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "../PHQ-2/PHQ2_schema",
+                "variableName": "PHQ2_schema",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "activity_path:GAD-7/GAD7_schema",
+                "variableName": "GAD7_schema",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "order": [
+            "../PHQ-2/PHQ2_schema",
+            "activity_path:GAD-7/GAD7_schema"
+        ],
+        "shuffle": false
+    }
+}

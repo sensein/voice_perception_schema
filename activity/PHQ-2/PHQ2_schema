@@ -48,6 +48,7 @@
             "activity_path:PHQ-9/items/phq9_1",
             "activity_path:PHQ-9/items/phq9_2"
         ],
+        "inputType": "section",
         "shuffle": false
     }
 }
