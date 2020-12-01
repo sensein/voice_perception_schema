@@ -12,8 +12,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {
-        "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",        
-        "es": "Para cada tarea, aprieta el botón record (grabar) antes de hablar y el de stop (pausar) cuando termines. Puedes apretar play para escuchar la grabación."        
+        "en": "For each task, you should click the Record button before speaking or breathing and then the Stop button once you are done. Use your typical volume and typical pitch in speaking tasks.",
+        "es": "Para cada tarea, debe hacer clic en el botón Grabar antes de hablar o respirar y luego en el botón Detener una vez que haya terminado. Utilice su volumen y tono típicos en las tareas de conversación."
     },
     "ui": {
         "addProperties": [
