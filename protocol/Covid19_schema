@@ -26,8 +26,6 @@
     ],
     "ui": {
         "order": [
-            "../activity/PHQ-2/PHQ2_schema",
-            "activity_path:GAD-7/GAD7_schema",
             "../activity/covid19/covid19_schema",
             "../activity/voice/voice_schema",
             "../activity/voice_opt/voice_opt_schema",
@@ -35,22 +33,6 @@
         ],
         "shuffle": false,
         "addProperties": [
-            {
-                "isAbout": "../activity/PHQ-2/PHQ2_schema",
-                "variableName": "PHQ2_schema",
-                "prefLabel": {
-                    "en": "PHQ-2 survey",
-                    "es": "Encuesta sobre PHQ-2"
-                }
-            },
-            {
-                "isAbout": "activity_path:GAD-7/GAD7_schema",
-                "variableName": "GAD7_schema",
-                "prefLabel": {
-                    "en": "GAD7 survey",
-                    "es": "Encuesta sobre GAD7"
-                }
-            },
             {
                 "isAbout": "../activity/covid19/covid19_schema",
                 "variableName": "covid19_schema",
