@@ -36,7 +36,7 @@
             {
                 "variableName": "pataka",
                 "isAbout": "voice_tasks:pataka"
-            },
+            }
         ],
         "order": [
             "voice_tasks:audio_check",
