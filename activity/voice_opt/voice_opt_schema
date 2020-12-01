@@ -31,11 +31,6 @@
                 "isAbout": "voice_tasks:say_oo"
             },
             {
-                "variableName": "pataka",
-                "isAbout": "voice_tasks:pataka",
-                "isVis": false
-            },
-            {
                 "variableName": "say_n",
                 "isAbout": "voice_tasks:say_n"
             },
@@ -69,6 +64,8 @@
             }
         ],
         "order": [
+            "voice_tasks:deep_breath",
+            "voice_tasks:coughs",
             "voice_tasks:free_speech_general_mood",
             "voice_tasks:kmart_natural",
             "voice_tasks:kmart_inhale",
@@ -77,10 +74,7 @@
             "voice_tasks:say_oo",
             "voice_tasks:say_m",
             "voice_tasks:say_n",
-            "voice_tasks:free_speech_food",
-            "voice_tasks:coughs",
-            "voice_tasks:deep_breath",
-            "voice_tasks:pataka"
+            "voice_tasks:free_speech_food"
         ],
         "shuffle": false
     }

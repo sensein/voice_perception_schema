@@ -44,9 +44,13 @@
         ],
         "order": [
             "voice_tasks:audio_check",
+            "voice_tasks:count_65_105",
+            "voice_tasks:say_ah",
+            "rainbow",
+            "voice_tasks:pataka"
             "voice_tasks:caterpillar_fast",
             "voice_tasks:kmart_exhale",
-            "voice_tasks:say_ah",
+
             "voice_tasks:say_ng",
             "voice_tasks:nasal_pinched"
         ],
