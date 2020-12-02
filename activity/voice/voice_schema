@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
             "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/VoiceTask/items/"
         }
@@ -9,11 +9,11 @@
     "@id": "voice_schema",
     "prefLabel": "Covid19 voice tasks",
     "description": "Covid19 Voice tasks",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble": {
-        "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",        
-        "es": "Para cada tarea, aprieta el botón record (grabar) antes de hablar y el de stop (pausar) cuando termines. Puedes apretar play para escuchar la grabación."        
+        "en": "For each task, you should click the Record button before speaking or breathing and then the Stop button once you are done. Use your typical volume and typical pitch in speaking tasks.",
+        "es": "Para cada tarea, debe hacer clic en el botón Grabar antes de hablar o respirar y luego en el botón Detener una vez que haya terminado. Utilice su volumen y tono típicos en las tareas de conversación."
     },
     "ui": {
         "addProperties": [
@@ -22,33 +22,28 @@
                 "isAbout": "voice_tasks:audio_check"
             },
             {
-                "variableName": "caterpillar_fast",
-                "isAbout": "voice_tasks:caterpillar_fast"
+                "variableName": "count_65_105",
+                "isAbout": "voice_tasks:count_65_105"
             },
             {
                 "variableName": "say_ah",
                 "isAbout": "voice_tasks:say_ah"
             },
             {
-                "variableName": "say_ng",
-                "isAbout": "voice_tasks:say_ng"
+                "variableName": "rainbow_passage_short",
+                "isAbout": "voice_tasks:rainbow_passage_short"
             },
             {
-                "variableName": "kmart_exhale",
-                "isAbout": "voice_tasks:kmart_exhale"
-            },
-            {
-                "variableName": "nasal_pinched",
-                "isAbout": "voice_tasks:nasal_pinched"
+                "variableName": "pataka",
+                "isAbout": "voice_tasks:pataka"
             }
         ],
         "order": [
             "voice_tasks:audio_check",
-            "voice_tasks:caterpillar_fast",
-            "voice_tasks:kmart_exhale",
+            "voice_tasks:count_65_105",
             "voice_tasks:say_ah",
-            "voice_tasks:say_ng",
-            "voice_tasks:nasal_pinched"
+            "voice_tasks:rainbow_passage_short",
+            "voice_tasks:pataka"
         ],
         "shuffle": false
     }

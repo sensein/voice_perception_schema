@@ -12,8 +12,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": {
-        "en": "We invite you to do some additional optional voice tasks. To skip, click on Submit Responses in the menu to upload your responses. If you continue, for each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
-        "es": "Te invitamos a hacer algunas tareas de voz adicionales optativas. Para saltearlas, puede hacer click en Enviar respuestas en el menú para subir sus respuestas. Si continúa, para cada tarea, aprieta el botón record (grabar) antes de hablar y el de stop (pausar) cuando termines. Puedes apretar play para escuchar la grabación."
+        "en": "We invite you to record some additional optional speaking and breathing tasks. To skip this section, you may click on Submit Responses. If you choose to continue, please click the Record button before speaking, breathing or coughing and then click Stop once you are done with each task. Use your typical volume and typical pitch in speaking tasks.",
+        "es": "Lo invitamos a grabar algunas tareas opcionales de voz y respiración. Para omitir esta sección, puede hacer clic en Enviar respuestas. Si elige continuar, haga clic en el botón Grabar antes de hablar, respirar o toser y luego haga clic en Detener una vez que haya terminado con cada tarea. Utilice su volumen y tono típicos en las tareas de conversación."
     },
     "ui": {
         "addProperties": [
@@ -29,11 +29,6 @@
             {
                 "variableName": "say_oo",
                 "isAbout": "voice_tasks:say_oo"
-            },
-            {
-                "variableName": "pataka",
-                "isAbout": "voice_tasks:pataka",
-                "isVis": false
             },
             {
                 "variableName": "say_n",
@@ -69,6 +64,8 @@
             }
         ],
         "order": [
+            "voice_tasks:deep_breath",
+            "voice_tasks:coughs",
             "voice_tasks:free_speech_general_mood",
             "voice_tasks:kmart_natural",
             "voice_tasks:kmart_inhale",
@@ -77,10 +74,7 @@
             "voice_tasks:say_oo",
             "voice_tasks:say_m",
             "voice_tasks:say_n",
-            "voice_tasks:free_speech_food",
-            "voice_tasks:coughs",
-            "voice_tasks:deep_breath",
-            "voice_tasks:pataka"
+            "voice_tasks:free_speech_food"
         ],
         "shuffle": false
     }

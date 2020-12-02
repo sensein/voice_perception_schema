@@ -89,7 +89,15 @@
                     "en": "Persistent pain or pressure in the chest",
                     "es": "Dolor o presión persistente en el pecho"
 
-                }}
+                }},
+            {
+                "value": 12,
+                "name": {
+                    "en": "No, none of these",
+                    "es": "No, ninguno de estos"
+
+                }
+            }
         ]
     },
     "ui": {

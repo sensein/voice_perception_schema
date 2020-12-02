@@ -12,10 +12,11 @@
         "es": "Fiebre actual."
         },
     "ui": {
-        "inputType": "text"
+        "inputType": "float"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:string",
+        "unitCode": [ "Fahrenheit", "Celcius" ]
     }
 }
 

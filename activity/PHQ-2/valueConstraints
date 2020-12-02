@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 3,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+                "en": "Not at all",
+                "es": "Para nada"
+            },
+            "value": 0
+        },
+        {
+            "name": {
+                "en": "Several days",
+                "es": "Varios d\u00edas"
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "More than half the days",
+                "es": "M\u00e1s de la mitad de los d\u00edas"
+            },
+            "value": 2
+        },
+        {
+            "name": {
+                "en": "Nearly everyday",
+                "es": "Casi todos los d\u00edas"
+            },
+            "value": 3
+        }
+    ]
+}
