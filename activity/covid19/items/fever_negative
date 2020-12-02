@@ -16,7 +16,22 @@
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "unitCode": [ "Fahrenheit", "Celcius" ]
+        "unitOptions": [
+        {
+            "prefLabel": {
+                "en": "Fahrenheit",
+                "es": "Fahrenheit"
+            },
+            "value": "°F"
+        },
+        {
+            "prefLabel": {
+                "en": "Celsius",
+                "es": "Celsius"
+            },
+            "value": "°C"
+        }
+        ]
     }
 }
 
