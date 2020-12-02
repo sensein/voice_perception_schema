@@ -59,6 +59,14 @@
                 }
             },
             {
+                "isAbout": "../activity/MentalHealth/MentalHealth_schema",
+                "variableName": "MentalHealth_schema",
+                "prefLabel": {
+                    "en": "Mental Health Survey",
+                    "es": "Encuesta Salud Mental"
+                }
+            },
+            {
                 "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
