@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/"
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/b70e49fc00cf5bd0d63c388e619e43a6ba579408/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -14,7 +14,6 @@
     "description": "Voice Protocol for evaluating impact of Covid19 on speech",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "landingPage": [{
             "@id": "README-en.md",
             "@language": "en"
