@@ -2,8 +2,8 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/NDA/items/",
-            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/demographics_and_background_information_v1/items/"
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/b70e49fc00cf5bd0d63c388e619e43a6ba579408/activities/NDA/items/",
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/b70e49fc00cf5bd0d63c388e619e43a6ba579408/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
