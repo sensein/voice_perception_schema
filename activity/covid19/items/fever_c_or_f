@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "covid19_symptoms",
     "prefLabel": "Fever C or F",
     "altLabel": "fever in celcius or fahrenheit",
     "description": "Fever C or F",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
         "en": "Farenheit or Celcius?",

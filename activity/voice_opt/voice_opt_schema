@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
             "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8a3551dce3277fdfe3dcc1f4dfe89acba19147f6/activities/VoiceTask/items/"
         }
@@ -9,7 +9,7 @@
     "@id": "voice_opt_schema",
     "prefLabel": "Covid19 voice tasks (optional)",
     "description": "Optional Covid19 Voice tasks",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble": {
         "en": "We invite you to record some additional optional speaking and breathing tasks. To skip this section, you may click on Submit Responses. If you choose to continue, please click the Record button before speaking, breathing or coughing and then click Stop once you are done with each task. Use your typical volume and typical pitch in speaking tasks.",
