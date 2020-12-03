@@ -12,8 +12,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble": {
-        "en": "For each task, you should click the Record button before speaking or breathing and then the Stop button once you are done. Use your typical volume and typical pitch in speaking tasks.",
-        "es": "Para cada tarea, debe hacer clic en el botón Grabar antes de hablar o respirar y luego en el botón Detener una vez que haya terminado. Utilice su volumen y tono típicos en las tareas de conversación."
+        "en": "For each task, you should click the <u>Record</u> button before speaking or breathing and then the <u>Stop</u> button once you are done. Use your <u>typical volume and typical pitch<u> in speaking tasks.",
+        "es": "Para cada tarea, debe hacer clic en el botón <u>Grabar</u> antes de hablar o respirar y luego en el botón <u>Detener</u> una vez que haya terminado. Utilice su <u>volumen y tono típicos</u> en las tareasde conversación."
     },
     "ui": {
         "addProperties": [
@@ -36,6 +36,10 @@
             {
                 "variableName": "pataka",
                 "isAbout": "voice_tasks:pataka"
+            },
+            {
+                "variableName": "coughs",
+                "isAbout": "voice_tasks:coughs"
             }
         ],
         "order": [
@@ -43,7 +47,8 @@
             "voice_tasks:count_65_105",
             "voice_tasks:say_ah",
             "voice_tasks:rainbow_passage_short",
-            "voice_tasks:pataka"
+            "voice_tasks:pataka",
+            "voice_tasks:coughs"
         ],
         "shuffle": false
     }
