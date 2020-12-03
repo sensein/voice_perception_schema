@@ -1,6 +1,5 @@
 ![CI](https://github.com/sensein/covid19/workflows/CI/badge.svg)
 
-# Covid19 voice protocol
 
 This a protocol being used to assess impact of SARS-COV2 on speech production. 
 The overall protocol is in the `protocol`folder and individual tasks and items

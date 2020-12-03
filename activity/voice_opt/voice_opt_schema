@@ -12,15 +12,14 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "preamble": {
-        "en": "We invite you to record some additional optional speaking and breathing tasks. To skip this section, you may click on Submit Responses. If you choose to continue, please click the Record button before speaking, breathing or coughing and then click Stop once you are done with each task. Use your typical volume and typical pitch in speaking tasks.",
-        "es": "Lo invitamos a grabar algunas tareas opcionales de voz y respiración. Para omitir esta sección, puede hacer clic en Enviar respuestas. Si elige continuar, haga clic en el botón Grabar antes de hablar, respirar o toser y luego haga clic en Detener una vez que haya terminado con cada tarea. Utilice su volumen y tono típicos en las tareas de conversación."
+        "en": "We invite you to record some additional optional speaking and breathing tasks. To skip this section, you may click on Submit Responses.<br>If you choose to continue, please click the <u>Record</u> button before speaking, breathing or coughing and then click <u>Stop</u> once you are done with each task. Use your <u>typical volume and typical pitch</u> in speaking tasks.",
+        "es": "Lo invitamos a grabar algunas tareas opcionales de voz y respiración. Para omitir esta sección, puede hacer clic en <u>Enviar respuestas</u>.<br>Si elige continuar, haga clic en el botón <u>Grabar</u> antes de hablar, respirar o toser y luego haga clic en <u>Detener</u> una vez que haya terminado con cada tarea. Utilice su <u>volumen y tono típicos</u> en las tareas de conversación."
     },
     "ui": {
         "addProperties": [
             {
                 "variableName": "free_speech_general_mood",
-                "isAbout": "voice_tasks:free_speech_general_mood",
-                "isVis": false
+                "isAbout": "voice_tasks:free_speech_general_mood"
             },
             {
                 "variableName": "say_ee",
@@ -37,10 +36,6 @@
             {
                 "variableName": "say_m",
                 "isAbout": "voice_tasks:say_m"
-            },
-            {
-                "variableName": "coughs",
-                "isAbout": "voice_tasks:coughs"
             },
             {
                 "variableName": "deep_breath",
@@ -65,7 +60,6 @@
         ],
         "order": [
             "voice_tasks:deep_breath",
-            "voice_tasks:coughs",
             "voice_tasks:free_speech_general_mood",
             "voice_tasks:kmart_natural",
             "voice_tasks:kmart_inhale",
