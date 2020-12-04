@@ -9,7 +9,7 @@
     "@id": "Covid19_schema",
     "prefLabel": {
         "en": "Covid19 Voice Protocol",
-        "es": "Covid19 Voice Protocol_es"
+        "es": "Protocolo de voz para Covid19"
     },
     "description": "Voice Protocol for evaluating impact of Covid19 on speech",
     "schemaVersion": "1.0.0-rc2",
