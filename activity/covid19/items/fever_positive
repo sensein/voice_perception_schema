@@ -11,10 +11,26 @@
         "es": "Indique la fiebre más alta antes del diagnóstico."
         },
     "ui": {
-        "inputType": "text"
+        "inputType": "float"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:float",
+        "unitOptions": [
+        {
+            "prefLabel": {
+                "en": "Fahrenheit",
+                "es": "Fahrenheit"
+            },
+            "value": "°F"
+        },
+        {
+            "prefLabel": {
+                "en": "Celsius",
+                "es": "Celsius"
+            },
+            "value": "°C"
+        }
+        ]
     }
 }
 

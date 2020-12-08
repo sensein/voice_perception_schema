@@ -15,7 +15,7 @@
         "inputType": "float"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
+        "valueType": "xsd:float",
         "unitOptions": [
         {
             "prefLabel": {
