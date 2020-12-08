@@ -11,7 +11,7 @@
         "es": "Indique la fiebre más alta antes del diagnóstico."
         },
     "ui": {
-        "inputType": "text"
+        "inputType": "float"
     },
     "responseOptions": {
         "valueType": "xsd:float",
