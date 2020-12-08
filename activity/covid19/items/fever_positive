@@ -14,7 +14,23 @@
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:float",
+        "unitOptions": [
+        {
+            "prefLabel": {
+                "en": "Fahrenheit",
+                "es": "Fahrenheit"
+            },
+            "value": "°F"
+        },
+        {
+            "prefLabel": {
+                "en": "Celsius",
+                "es": "Celsius"
+            },
+            "value": "°C"
+        }
+        ]
     }
 }
 
