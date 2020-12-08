@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8a3551dce3277fdfe3dcc1f4dfe89acba19147f6/activities/"
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/4abf96b4bda1207154fd8c7e0bc92d5e013d0b30/activities/"
         }
     ],
     "@type": "reproschema:Activity",
