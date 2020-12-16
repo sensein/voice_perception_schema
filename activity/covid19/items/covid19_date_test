@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "covid19_date_test",
+    "prefLabel": "Covid19 Test Date",
+    "description": "Date of COVID-19 test",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+        "en": "Date you were last tested. MM/DD/YYYY",
+        "es": "Fecha en la que fuiste testeado por última vez. MM/DD/AAAA"
+        },
+    "ui": {
+        "inputType": "date"
+    },
+    "responseOptions": {
+        "valueType": "xsd:date",
+        "maxValue": 2021
+    }
+}

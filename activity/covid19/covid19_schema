@@ -74,6 +74,11 @@
                 "isVis": "covid19_status === 1"
             },
             {
+                "isAbout": "items/covid19_date_test",
+                "variableName": "covid19_date_test",
+                "isVis": "covid19_status_tested === 3"
+            },
+            {
                 "isAbout": "items/covid19_status_symptoms_negative",
                 "variableName": "covid19_status_symptoms_negative",
                 "isVis": true

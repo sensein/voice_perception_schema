@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "covid19_status",
+    "@id": "covid19_status_tested",
     "prefLabel": "Covid19 Status - tested",
     "description": "COVID-19 diagnosis and suspicion status - tested",
     "schemaVersion": "1.0.0-rc2",
@@ -27,6 +27,12 @@
                     "en": "Negative test: I did not have COVID-19",
                     "es": "Test negativo: no tuve COVID-19"
 
+                }},
+                {
+                "value": 3,
+                "name": {
+                    "en": "I'm waiting for test results",
+                    "es": "Estoy esperando los resultados del test"
                 }}
         ]
     },
