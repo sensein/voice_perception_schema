@@ -22,9 +22,14 @@
                 "isAbout": "voice_tasks:audio_check"
             },
             {
+                "variableName": "free_speech_general_mood",
+                "isAbout": "voice_tasks:free_speech_general_mood"
+            },
+            {
                 "variableName": "count_65_105",
                 "isAbout": "voice_tasks:count_65_105"
             },
+
             {
                 "variableName": "say_ah",
                 "isAbout": "voice_tasks:say_ah"
@@ -44,6 +49,7 @@
         ],
         "order": [
             "voice_tasks:audio_check",
+            "voice_tasks:free_speech_general_mood",
             "voice_tasks:count_65_105",
             "voice_tasks:say_ah",
             "voice_tasks:rainbow_passage_short",
