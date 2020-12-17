@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Have you been diagnosed with any of the following conditions?",
-        "es": "¿Ha sido diagnosticado con alguna de las siguientes enfermedades?"
+        "en": "Do you have any of the following?",
+        "es": "¿Tiene alguna de estas condiciones?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -27,6 +27,7 @@
                     "es": "Hipertension"
 
                 }},
+
             {
                 "value": 3,
                 "name": {
@@ -88,6 +89,13 @@
                 "name": {
                     "en": "Persistent pain or pressure in the chest",
                     "es": "Dolor o presión persistente en el pecho"
+
+                }},
+                {
+                "value": 12,
+                "name": {
+                    "en": "No, none of these",
+                    "es": "No, ninguna de estas"
 
                 }}
         ]

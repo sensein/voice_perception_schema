@@ -6,12 +6,14 @@ The overall protocol is in the `protocol`folder and individual tasks and items
 are in the `covid19`, `voice`, and `voice-opt` folders. 
 
 Activities (tasks):
-* covid19
-    * Items: covid19_clinical_history, covid19_status, covid19_symptoms, fever, smoking_history 
-* voice
-    * Items: caterpillar_fast, kmart_exhale, nasal_pinched, say_ah, say_ng
-* voice_opt
-    * Items: An extend set of tasks
+* covid19 **1 minute**
+    * Items: covid19_clinical_history, smoking_history, covid19_status, covid19_symptoms, fever
+* voice **3 minutes**
+    * Items: audio_check, count 65 to 105, say_ah, rainbow_short, pataka, coughing 
+* mental_health **1 minute**
+    * Items: PHQ-2 and GAD-7
+* voice_opt **5 minutes**
+    * Items: An extend set of tasks:  kmart_exhale, nasal_pinched, say_ah, coughing, say_ee, say_m
 
 
 [Here](https://docs.google.com/document/d/1NoE0K-z2AbzLK_5mRkIgFINIh1yT0ujdeROZpIEDnS8/edit) is the protocol including the branching logic to the intitial COVID-19 questionnaire. 

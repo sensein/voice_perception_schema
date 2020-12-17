@@ -1,8 +1,14 @@
 module.exports = {
   /* eslint-disable */
   githubSrc: 'https://raw.githubusercontent.com/sanuann/covid19/master/protocol/Covid19_schema',
-  banner: 'This protocol is under construction.',
-  startButton: 'Join',
+  banner: {
+    "en": 'This protocol is under construction.',
+    "es": "This protocol is under construction_es"
+  },  
+  startButton: {
+    "en": 'Join',
+    "es": 'Participar'
+  },
   assetsPublicPath: '/covid19/',
   backendServer: 'https://sig.mit.edu/vb'
 };

@@ -18,10 +18,6 @@
     "ui": {
         "addProperties": [
             {
-                "variableName": "free_speech_general_mood",
-                "isAbout": "voice_tasks:free_speech_general_mood"
-            },
-            {
                 "variableName": "say_ee",
                 "isAbout": "voice_tasks:say_ee"
             },
@@ -59,14 +55,13 @@
             }
         ],
         "order": [
+            "voice_tasks:say_ee",
             "voice_tasks:deep_breath",
-            "voice_tasks:free_speech_general_mood",
+            "voice_tasks:say_m",
             "voice_tasks:kmart_natural",
             "voice_tasks:kmart_inhale",
-            "voice_tasks:nasal_high",
-            "voice_tasks:say_ee",
             "voice_tasks:say_oo",
-            "voice_tasks:say_m",
+            "voice_tasks:nasal_high",
             "voice_tasks:say_n",
             "voice_tasks:free_speech_food"
         ],
