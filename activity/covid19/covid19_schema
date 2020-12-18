@@ -23,6 +23,7 @@
             "items/covid19_days",
             "items/fever_positive",
             "items/covid19_status_notTested",
+            "items/covid19_date_test",
             "items/covid19_status_symptoms_negative",
             "items/fever_negative"
         ],
@@ -86,7 +87,8 @@
             {
                 "isAbout": "items/fever_negative",
                 "variableName": "fever_negative",
-                "isVis": true
+                "isVis": true,
+                "allow": ["skipped"]
             }
         ]
     }
