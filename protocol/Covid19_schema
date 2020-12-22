@@ -75,7 +75,8 @@
             }
         ],
         "allow": [
-            "reproschema:AutoAdvance"
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
         ]
     }
 }
