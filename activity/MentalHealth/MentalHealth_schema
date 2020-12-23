@@ -6,7 +6,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "PHQ2_schema",
+    "@id": "MentalHealth_schema",
     "prefLabel": {
         "en": "Mental Health",
         "es": "Salud Mental"
