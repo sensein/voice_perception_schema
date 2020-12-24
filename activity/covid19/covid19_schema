@@ -87,8 +87,7 @@
             {
                 "isAbout": "items/fever_negative",
                 "variableName": "fever_negative",
-                "isVis": true,
-                "allow": ["reproschema:Skipped"]
+                "isVis": true
             }
         ]
     }
