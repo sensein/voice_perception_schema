@@ -28,7 +28,6 @@
             "../activity/covid19/covid19_schema",
             "../activity/voice/voice_schema",
             "../activity/MentalHealth/MentalHealth_schema",
-            "../activity/voice_opt/voice_opt_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
@@ -47,14 +46,6 @@
                 "prefLabel": {
                     "en": "Voice Tasks",
                     "es": "Tareas de voz"
-                }
-            },
-            {
-                "isAbout": "../activity/voice_opt/voice_opt_schema",
-                "variableName": "voice_opt_schema",
-                "prefLabel": {
-                    "en": "Optional Voice Tasks",
-                    "es": "Tareas de voz optativas"
                 }
             },
             {
