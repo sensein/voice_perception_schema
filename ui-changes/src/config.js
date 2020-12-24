@@ -10,5 +10,8 @@ module.exports = {
     "es": 'Participar'
   },
   assetsPublicPath: '/covid19/',
-  backendServer: 'https://sig.mit.edu/vb'
+  backendServer: 'https://sig.mit.edu/vb',
+  showHelp: true,
+  contact: 'voice_survey@mit.edu',
+  emailSubject: 'Help with Covid19 study'
 };
