@@ -14,6 +14,10 @@
     "description": "Mental Health schema",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+        "es": "Durante las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le han molestado los siguintes problemas?"
+    },
     "compute": [
         {
             "variableName": "phq2_total_score",
