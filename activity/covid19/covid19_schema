@@ -67,7 +67,10 @@
             {
                 "isAbout": "items/fever_positive",
                 "variableName": "fever_positive",
-                "isVis": "covid19_status_tested === 1"
+                "isVis": "covid19_status_tested === 1",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
             },
             {
                 "isAbout": "items/covid19_status_notTested",

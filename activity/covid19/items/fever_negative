@@ -8,8 +8,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Current temperature.",
-        "es": "Fiebre actual."
+        "en": "Current body temperature.",
+        "es": "Temperatura corporal actual."
         },
     "ui": {
         "inputType": "float"
