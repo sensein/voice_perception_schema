@@ -8,8 +8,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Current body temperature.",
-        "es": "Temperatura corporal actual."
+        "en": "Measure your current body temperture (or you can skip this item)",
+        "es": "Tómese la temperatura corporal actual (o puede saltearse este ítem)"
         },
     "ui": {
         "inputType": "float"
