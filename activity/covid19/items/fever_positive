@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Highest fever before diagnosis.",
-        "es": "Indique la fiebre más alta antes del diagnóstico."
+        "en": "Highest body temperature during COVID-19 infection.",
+        "es": "Indique la fiebre más alta mientras estuvo enfermo(a) de COVID-19."
         },
     "ui": {
         "inputType": "float"
