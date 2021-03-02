@@ -31,8 +31,8 @@
             {
                 "value": 3,
                 "name": {
-                    "en": "Coronary heart disease",
-                    "es": "Enfermedad coronaria del corazón"
+                    "en": "Heart conditions",
+                    "es": "Problemas cardíacos"
 
                 }},
             {
@@ -66,33 +66,103 @@
             {
                 "value": 8,
                 "name": {
-                    "en": "Loss of smell",
-                    "es": "Pérdida del olfato"
+                    "en": "Obesity (BMI > 30kg/m2)",
+                    "es": "Obesidad (IMC > 30 kg/m2)"
 
                 }},
             {
                 "value": 9,
+                "name": {
+                    "en": "Pregnancy",
+                    "es": "Embarazo"
+
+                }},
+            {
+                "value": 10,
+                "name": {
+                    "en": "Sickle cell anemia",
+                    "es": "Anemia falciforme o depranocítica"
+
+                }},
+            {
+                "value": 11,
+                "name": {
+                    "en": "Neurological condition",
+                    "es": "Trastorno neurológico"
+
+                }},
+            {
+                "value": 12,
+                "name": {
+                    "en": "Loss of smell",
+                    "es": "Pérdida del olfato"
+
+                }},
+             {
+                "value": 13,
+                "name": {
+                    "en": "Immunocompromised",
+                    "es": "Inmunodeprimido"
+
+                }},
+            {
+                "value": 14,
                 "name": {
                     "en": "Stuffy or runny nose",
                     "es": "Nariz tapada o goteante"
 
                 }},
             {
-                "value": 10,
+                "value": 15,
                 "name": {
                     "en": "Diarrhea",
                     "es": "Diarrea"
 
                 }},
             {
-                "value": 11,
+                "value": 16,
                 "name": {
                     "en": "Persistent pain or pressure in the chest",
                     "es": "Dolor o presión persistente en el pecho"
 
                 }},
                 {
-                "value": 12,
+                "value": 17,
+                "name": {
+                    "en": "Cancer",
+                    "es": "Cáncer"
+
+                }},
+                {
+                "value": 18,
+                "name": {
+                    "en": "Down syndrome",
+                    "es": "Síndrome de Down"
+
+                }},
+                {
+                "value": 19,
+                "name": {
+                    "en": "Voice disorder",
+                    "es": "Trastorno de la voz"
+
+                }},
+                {
+                "value": 20,
+                "name": {
+                    "en": "Hearing disorder",
+                    "es": "Trastorno de la audición"
+
+                }},
+                {
+                "value": 21,
+                "name": {
+                    "en": "Ear, nose or throat surgery in the past",
+                    "es": "Cirugías del oído, la nariz o el cuello en el pasado"
+
+                }},
+                {
+                "value": 22,
                 "name": {
                     "en": "No, none of these",
                     "es": "No, ninguna de estas"

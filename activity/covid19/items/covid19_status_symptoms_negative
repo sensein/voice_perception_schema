@@ -65,8 +65,8 @@
             {
                 "value": 8,
                 "name": {
-                    "en": "Loss of smell",
-                    "es": "Pérdida del olfato"
+                    "en": "Loss of smell or taste",
+                    "es": "Pérdida del olfato o gusto"
 
                 }},
             {
@@ -92,6 +92,20 @@
                 }},
             {
                 "value": 12,
+                "name": {
+                    "en": "Muscle or body aches",
+                    "es": "Dolor muscular o corporal"
+
+                }},
+            {
+                "value": 13,
+                "name": {
+                    "en": "Nausea or vomiting",
+                    "es": "Náuseas o vómitos"
+
+                }},
+            {
+                "value": 14,
                 "name": {
                     "en": "No, none of these",
                     "es": "No, ninguno de estos"
