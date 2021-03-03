@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "covid19_date_vaccine",
+    "@id": "covid19_vaccine_yes",
     "prefLabel": "Covid19 Vaccine Date",
     "description": "Date of COVID-19 vaccine",
     "schemaVersion": "1.0.0-rc2",
