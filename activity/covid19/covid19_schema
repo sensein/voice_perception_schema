@@ -17,7 +17,7 @@
             "nda:yearOfBirth",
             "demo:gender_identity",
             "demo:dialect",
-            "demo:language"
+            "demo:language",
             "items/covid19_clinical_history",
             "items/smoking_history",
             "items/covid19_status",
@@ -109,7 +109,7 @@
                 "isAbout": "items/covid19_vaccine_yes",
                 "variableName": "covid19_vaccine_yes",
                 "isVis": "covid19_vaccine === 1"
-            },
+            }
         ]
     }
 }
