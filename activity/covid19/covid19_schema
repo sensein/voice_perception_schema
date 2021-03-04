@@ -15,6 +15,9 @@
     "ui": {
         "order": [
             "nda:yearOfBirth",
+            "demo:gender_identity",
+            "demo:dialect",
+            "demo:language",
             "items/covid19_clinical_history",
             "items/smoking_history",
             "items/covid19_status",
@@ -25,7 +28,9 @@
             "items/covid19_status_notTested",
             "items/covid19_date_test",
             "items/covid19_status_symptoms_negative",
-            "items/fever_negative"
+            "items/fever_negative",
+            "items/covid19_vaccine",
+            "items/covid19_vaccine_yes"
         ],
         "shuffle": false,
         "addProperties": [
@@ -94,6 +99,16 @@
                 "allow": [
                     "reproschema:Skipped"
                 ]
+            },
+            {
+                "isAbout": "items/covid19_vaccine",
+                "variableName": "covid19_vaccine",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/covid19_vaccine_yes",
+                "variableName": "covid19_vaccine_yes",
+                "isVis": "covid19_vaccine === 1"
             }
         ]
     }
