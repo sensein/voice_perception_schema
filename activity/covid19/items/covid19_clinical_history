@@ -100,78 +100,50 @@
                     "es": "Trastorno neurológico"
 
                 }},
-            {
-                "value": 12,
-                "name": {
-                    "en": "Loss of smell",
-                    "es": "Pérdida del olfato"
-
-                }},
              {
-                "value": 13,
+                "value": 12,
                 "name": {
                     "en": "Immunocompromised",
                     "es": "Inmunodeprimido"
 
                 }},
-            {
-                "value": 14,
-                "name": {
-                    "en": "Stuffy or runny nose",
-                    "es": "Nariz tapada o goteante"
-
-                }},
-            {
-                "value": 15,
-                "name": {
-                    "en": "Diarrhea",
-                    "es": "Diarrea"
-
-                }},
-            {
-                "value": 16,
-                "name": {
-                    "en": "Persistent pain or pressure in the chest",
-                    "es": "Dolor o presión persistente en el pecho"
-
-                }},
                 {
-                "value": 17,
+                "value": 13,
                 "name": {
                     "en": "Cancer",
                     "es": "Cáncer"
 
                 }},
                 {
-                "value": 18,
+                "value": 14,
                 "name": {
                     "en": "Down syndrome",
                     "es": "Síndrome de Down"
 
                 }},
                 {
-                "value": 19,
+                "value": 15,
                 "name": {
                     "en": "Voice disorder",
                     "es": "Trastorno de la voz"
 
                 }},
                 {
-                "value": 20,
+                "value": 16,
                 "name": {
                     "en": "Hearing disorder",
                     "es": "Trastorno de la audición"
 
                 }},
                 {
-                "value": 21,
+                "value": 17,
                 "name": {
                     "en": "Ear, nose or throat surgery in the past",
                     "es": "Cirugías del oído, la nariz o el cuello en el pasado"
 
                 }},
                 {
-                "value": 22,
+                "value": 18,
                 "name": {
                     "en": "No, none of these",
                     "es": "No, ninguna de estas"
