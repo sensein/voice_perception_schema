@@ -16,6 +16,7 @@
         "order": [
             "nda:yearOfBirth",
             "demo:gender_identity",
+            "items/gender_identity_other",
             "demo:dialect",
             "demo:fluentLanguages",
             "items/covid19_clinical_history",
@@ -43,6 +44,11 @@
                 "isAbout": "demo:gender_identity",
                 "variableName": "gender_identity",
                 "isVis": true
+            },
+            {
+                "isAbout": "items/gender_identity_other",
+                "variableName": "gender_identity_other",
+                "isVis": "gender_identity.includes(99)"
             },
             {
                 "isAbout": "demo:dialect",
