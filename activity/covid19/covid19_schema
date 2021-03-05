@@ -48,7 +48,7 @@
             {
                 "isAbout": "items/gender_identity_other",
                 "variableName": "gender_identity_other",
-                "isVis": "gender_identity.includes(99)"
+                "isVis": false
             },
             {
                 "isAbout": "demo:dialect",
