@@ -30,5 +30,5 @@ in `ui-changes`.
 
 Test protocol: ```https://schema.repronim.org/ui/#/?url=https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_schema```
 
-reproschema-library checksum:[070c1768a023420202ace00ba9f6e7ffe2b8dfbf](https://github.com/ReproNim/reproschema-library/tree/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/)
+reproschema-library checksum:[000ea1725a67b35944f67450057f8041cef090a7](https://github.com/ReproNim/reproschema-library/tree/000ea1725a67b35944f67450057f8041cef090a7/)
 
