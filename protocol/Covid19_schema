@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
             "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/000ea1725a67b35944f67450057f8041cef090a7/activities/"
         }
@@ -12,15 +12,15 @@
         "es": "Protocolo de voz para Covid19"
     },
     "description": "Voice Protocol for evaluating impact of Covid19 on speech",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "landingPage": [{
             "@id": "README-en.md",
-            "@language": "en"
+            "inLanguage": "en"
         },
         {
             "@id": "README-es.md",
-            "@language": "es"
+            "inLanguage": "es"
         }
     ],
     "ui": {
