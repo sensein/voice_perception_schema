@@ -1,11 +1,11 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sensein/voice_perception_schema/master/protocol/Covid19_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
   },
-  assetsPublicPath: '/covid19/',
+  assetsPublicPath: '/voice_perception_schema/',
   backendServer: 'https://sig.mit.edu/vb',
   showHelp: true,
   contact: 'voice_survey@mit.edu',
