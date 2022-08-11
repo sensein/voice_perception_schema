@@ -26,7 +26,6 @@
     "ui": {
         "order": [
             "../activity/covid19/covid19_schema",
-            "../activity/voice/voice_schema",
             "../activity/MentalHealth/MentalHealth_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
@@ -38,14 +37,6 @@
                 "prefLabel": {
                     "en": "COVID19 survey",
                     "es": "Encuesta sobre COVID19"
-                }
-            },
-            {
-                "isAbout": "../activity/voice/voice_schema",
-                "variableName": "voice_schema",
-                "prefLabel": {
-                    "en": "Voice Tasks",
-                    "es": "Tareas de voz"
                 }
             },
             {
