@@ -26,7 +26,6 @@
     "ui": {
         "order": [
             "../activity/covid19/covid19_schema",
-            "../activity/MentalHealth/MentalHealth_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
@@ -37,14 +36,6 @@
                 "prefLabel": {
                     "en": "COVID19 survey",
                     "es": "Encuesta sobre COVID19"
-                }
-            },
-            {
-                "isAbout": "../activity/MentalHealth/MentalHealth_schema",
-                "variableName": "MentalHealth_schema",
-                "prefLabel": {
-                    "en": "Mental Health Survey",
-                    "es": "Encuesta de Salud Mental"
                 }
             },
             {
