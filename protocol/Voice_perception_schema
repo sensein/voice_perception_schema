@@ -20,24 +20,24 @@
     ],
     "ui": {
         "order": [
-            "../activity/personal_info/personal_info_schema",
             "activity_path:VoiceConsent/VoiceConsent_schema",
+            "../activity/personal_info/personal_info_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
         "addProperties": [
             {
-                "isAbout": "../activity/personal_info/personal_info_schema",
-                "variableName": "personal_info",
-                "prefLabel": {
-                    "en": "Personal Info"
-                }
-            },
-            {
                 "isAbout": "activity_path:VoiceConsent/VoiceConsent_schema",
                 "variableName": "voice_consent",
                 "prefLabel": {
                     "en": "Voice Consent"
+                }
+            },
+            {
+                "isAbout": "../activity/personal_info/personal_info_schema",
+                "variableName": "personal_info",
+                "prefLabel": {
+                    "en": "Personal Info"
                 }
             },
             {
