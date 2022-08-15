@@ -20,25 +20,23 @@
     ],
     "ui": {
         "order": [
-            "../activity/covid19/covid19_schema",
+            "../activity/personal_info/personal_info_schema",
             "activity_path:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
         "addProperties": [
             {
-                "isAbout": "../activity/covid19/covid19_schema",
-                "variableName": "covid19_schema",
+                "isAbout": "../activity/personal_info/personal_info_schema",
+                "variableName": "personal_info",
                 "prefLabel": {
-                    "en": "COVID19 survey",
-                    "es": "Encuesta sobre COVID19"
+                    "en": "Personal Info"
                 }
             },
             {
                 "isAbout": "activity_path:ThankYou/ThankYou_schema",
                 "variableName": "ThankYou_schema",
                 "prefLabel": {
-                    "en": "Submit Responses",
-                    "es": "Enviar respuestas"
+                    "en": "Submit Responses"
                 }
             }
         ],
