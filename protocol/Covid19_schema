@@ -6,21 +6,16 @@
         }
     ],
     "@type": "reproschema:Protocol",
-    "@id": "Covid19_schema",
+    "@id": "voice_perception_schema",
     "prefLabel": {
-        "en": "Covid19 Voice Protocol",
-        "es": "Protocolo de voz para Covid19"
+        "en": "Voice Perception Protocol"
     },
-    "description": "Voice Protocol for evaluating impact of Covid19 on speech",
+    "description": "Voice Identity Perception",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "landingPage": [{
             "@id": "README-en.md",
             "inLanguage": "en"
-        },
-        {
-            "@id": "README-es.md",
-            "inLanguage": "es"
         }
     ],
     "ui": {
