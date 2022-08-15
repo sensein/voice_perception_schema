@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sensein/voice_perception_schema/master/protocol/Covid19_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sensein/voice_perception_schema/master/protocol/Voice_perception_schema',
   startButton: {
     "en": 'Join'
   },
@@ -9,6 +9,6 @@ module.exports = {
   showHelp: true,
   // contact: 'voice_survey@mit.edu',
   // emailSubject: 'Help with Covid19 study',
-  checkMediaPermission: false
+  checkMediaPermission: true
 };
 
