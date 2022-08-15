@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "test_speaker",
+    "prefLabel": "Test Speaker",
+    "description": "speaker test for participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question":
+        {"en": "Before we start, let’s test your speaker. Click on the Play button below and try to listen to the audio. Then, write in the space below the word said in the audio."
+        },
+    "ui": {
+        "inputType": "audioCheck"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 4000
+    }
+}
