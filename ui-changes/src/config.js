@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sensein/voice_perception_schema/master/protocol/Voice_perception_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sensein/voice_perception_schema/master/protocol/Covid19_schema',
   startButton: {
     "en": 'Join'
   },
