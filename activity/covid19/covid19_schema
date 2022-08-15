@@ -14,18 +14,18 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "demo:gender_identity",
-            "demo:nativeLanguage"
+            "demo:sex",
+            "items/native_language"
         ],
         "shuffle": false,
         "addProperties": [
             {
-                "isAbout": "demo:gender_identity",
-                "variableName": "gender_identity",
+                "isAbout": "demo:sex",
+                "variableName": "sex",
                 "isVis": true
             },
             {
-                "isAbout": "demo:nativeLanguage",
+                "isAbout": "items/native_language",
                 "variableName": "native_language",
                 "isVis": true
             }
